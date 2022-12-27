@@ -1,0 +1,21 @@
+.astronaut {
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border: 3px solid grey;
+  --color1: purple;
+  --color2: pink;
+  /* transition: 3s; */
+}
+
+.astronaut svg {
+  height: inherit;
+  width: inherit;
+}
+
+.astronaut:hover {
+  cursor: pointer;
+  --color1: green;
+  --color2: rgb(211, 136, 16);
+  /* transition: 3s; */
+}
